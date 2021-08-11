@@ -1,38 +1,159 @@
 .App {
-  text-align: center;
+	text-align: center;
+	background-color: #ced9df;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
+}
+
+.homepage-text-div {
+	margin-top: 100px;
+	height: 375px;
+}
+
+.homepage-text {
+	font-family: Permanent Marker;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	color: #3e563e;
+}
+
+.homepage-subtext {
+	font-family: Permanent Marker;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: #3e563e;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #ced9df;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
 }
 
-.App-link {
-  color: #61dafb;
+.navbar {
+	background: #ced9df;
+	display: inline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navlink {
+	font-family: Prompt;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 70px;
+	color: #3e563e;
+}
+
+.bio-header-text {
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: #3e563e;
+	animation: 1.5s ease-out 0s 1 slideInFromTop;
+}
+
+.bio-paragraph-text {
+	font-family: Prompt;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: #3e563e;
+	text-align: start;
+	margin-bottom: 3.5rem;
+	animation: 1.5s ease-out 0s 1 slideInFromRight;
+}
+
+.bio-paragraph-text-interests {
+	font-family: Prompt;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: #3e563e;
+	text-align: start;
+	margin-bottom: 3.5rem;
+	animation: 1.5s ease-out 0s 1 slideInFromBottom;
+}
+
+@keyframes slideInFromRight {
+	0% {
+		transform: translateX(100%);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+
+@keyframes slideInFromTop {
+	0% {
+		transform: translateY(100%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+@keyframes slideInFromLeft {
+	0% {
+		transform:translateX(-100%);
+	}
+	100% {
+		transform: translateX(0%);
+	}
+}
+
+@keyframes slideInFromBottom {
+	0% {
+		transform: translateY(-100%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+.icon-paragraph-text {
+	color: #3e563e;
+	text-align: start;
+	margin-bottom: 5rem;
+}
+
+.project-image {
+	height: 150px;
+	border-radius: 0.5rem;
+	
+}
+
+.project-display-image {
+	height: 200px;
+	border-radius: 0.5rem;
+	
+}
+
+.design-image {
+	height: 150px;
+	border-radius: 0.5rem;
+}
+
+.project-header-text {
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	color: #3e563e;
+	animation: 1.5s ease-out 0s 1 slideInFromTop;
 }
