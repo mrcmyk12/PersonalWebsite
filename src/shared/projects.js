@@ -2,15 +2,15 @@ export const PROJECTS = [
 	{
 		id: 0,
 		name: "NYS Nevada",
-		titleimage: "./assets/image/nnysnevadatitleimage.png",
+		titleimage: "../assets/image/nnysnevadatitleimage.PNG",
 		designimages: [
-			"./public/assets/image/nnyswireframe.jpg",
-			"./public/assets/image/nnyswireframe1.png"
+			"../assets/image/nnyswireframe.JPG",
+			"../assets/image/nnyswireframe1.PNG"
 		],
 		screencaptures: [
-			"./public/assets/image/nnysscreencapture1.png",
-			"./public/assets/image/nnysscreencapture2.png",
-			"./public/assets/image/nnysscreencapture3.png"
+			"../assets/image/nnysscreencapture1.PNG",
+			"../assets/image/nnysscreencapture2.PNG",
+			"../assets/image/nnysscreencapture3.PNG"
 		],
 		techicons: [
 			"faReact",
@@ -27,15 +27,15 @@ export const PROJECTS = [
 	{
 		id: 1,
 		name: "Personal Website",
-		titleimage: "./assets/image/personalwebsitescreencap.png",
+		titleimage: "../assets/image/personalwebsitescreencap.PNG",
 		designimages: [
-			"./public/assets/image/personalwebsitefigma.png",
-			"./public/assets/image/personalwebsitefigma1.png",
+			"../assets/image/personalwebsitefigma.PNG",
+			"../assets/image/personalwebsitefigma1.PNG",
 		],
 		screencaptures: [
-			"./public/assets/image/personalwebsitescreencap.png",
-			"./public/assets/image/personalwebsitescreencap1.png",
-			"./public/assets/image/personalwebsitescreencap3.png"
+			"../assets/image/personalwebsitescreencap.PNG",
+			"../assets/image/personalwebsitescreencap1.PNG",
+			"../assets/image/personalwebsitescreencap3.PNG"
 		],
 		techicons: [
 			"faReact",
@@ -52,17 +52,17 @@ export const PROJECTS = [
 	{
 		id: 2,
 		name: "Forest Green (React Native)",
-		titleimage: "./assets/image/forestgreentitleimage.png",
+		titleimage: "../assets/image/forestgreentitleimage.PNG",
 		designimages: [
-			"./public/assets/image/forestgreenscreen1.png",
-			"./public/assets/image/forestgreenscreen2.png",
-			"./public/assets/image/forestgreenscreen3.png"
+			"../assets/image/forestgreenscreen1.PNG",
+			"../assets/image/forestgreenscreen2.PNG",
+			"../assets/image/forestgreenscreen3.PNG"
 		],
 		screencaptures: [
-			"./public/assets/image/forestgreenprototype1.png",
-			"./public/assets/image/forestgreenprototype2.png",
-			"./public/assets/image/forestgreenprototype3.png",
-			"./public/assets/image/forestgreenprototype4.png"
+			"../assets/image/forestgreenprototype1.PNG",
+			"../assets/image/forestgreenprototype2.PNG",
+			"../assets/image/forestgreenprototype3.PNG",
+			"../assets/image/forestgreenprototype4.PNG"
 		],
 		techicons: [
 			"faReact",

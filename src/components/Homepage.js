@@ -10,11 +10,11 @@ class Homepage extends Component {
 	render() {
 		return (
 			<div className="homepage-text-div">
-			<Typist avgTypingDelay={125} cursor={{show:false}}>
+			<Typist avgTypingDelay={100} cursor={{show:false}}>
 				<h1 className="homepage-text" >philip.sanders</h1>
-				<Typist.Delay ms={500} />
+				<Typist.Delay ms={100} />
 				<h2 className="homepage-subtext">ux engineer</h2>
-				<Typist.Delay ms={500} />
+				<Typist.Delay ms={100} />
 				<h2 className="homepage-subtext">front end engineer</h2>
 			</Typist>
 				<Link to='/projects'><Button outline >View Projects</Button></Link>

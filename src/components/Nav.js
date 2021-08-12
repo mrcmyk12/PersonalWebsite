@@ -105,7 +105,7 @@ class Navigation extends Component {
 									about
 								</NavLink>
 							</NavItem>
-							<NavItem>
+							{/* <NavItem>
 								<NavLink
 									style={{
 										fontFamily: "Prompt",
@@ -119,7 +119,7 @@ class Navigation extends Component {
 									to="/contact">
 									contact
 								</NavLink>
-							</NavItem>
+							</NavItem> */}
 						</Nav>
 						<span style={{ marginLeft: "600px", color: "#3E563E" }}>
 							<h4 style={{ fontFamily: "Permanent Marker" }}>
