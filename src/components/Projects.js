@@ -28,9 +28,9 @@ class Project extends Component {
 					<div
 						className="col-lg-4"
 						style={{ animation: "1.5s ease-out 0s 1 slideInFromLeft" }}>
-						<Link to={`/projects/${project.id}`}>
+						{/* <Link to={`/projects/${project.id}`}> */}
 							<img src={project.titleimage} className="project-image" />
-						</Link>
+						{/* </Link> */}
 						<a
 							style={{ textDecoration: "none", color: "#3e563e" }}
 							href={project.githublink}

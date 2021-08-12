@@ -2,15 +2,15 @@ export const PROJECTS = [
 	{
 		id: 0,
 		name: "NYS Nevada",
-		titleimage: "/assets/image/nnysnevadatitleimage.png",
+		titleimage: "./assets/image/nnysnevadatitleimage.png",
 		designimages: [
-			"/assets/image/nnyswireframe.jpg",
-			"/assets/image/nnyswireframe1.png"
+			"./public/assets/image/nnyswireframe.jpg",
+			"./public/assets/image/nnyswireframe1.png"
 		],
 		screencaptures: [
-			"/assets/image/nnysscreencapture1.png",
-			"/assets/image/nnysscreencapture2.png",
-			"/assets/image/nnysscreencapture3.png"
+			"./public/assets/image/nnysscreencapture1.png",
+			"./public/assets/image/nnysscreencapture2.png",
+			"./public/assets/image/nnysscreencapture3.png"
 		],
 		techicons: [
 			"faReact",
@@ -26,18 +26,43 @@ export const PROJECTS = [
 	},
 	{
 		id: 1,
-		name: "Forest Green (React Native)",
-		titleimage: "/assets/image/forestgreentitleimage.png",
+		name: "Personal Website",
+		titleimage: "./assets/image/personalwebsitescreencap.png",
 		designimages: [
-			"/assets/image/forestgreenscreen1.png",
-			"/assets/image/forestgreenscreen2.png",
-			"/assets/image/forestgreenscreen3.png"
+			"./public/assets/image/personalwebsitefigma.png",
+			"./public/assets/image/personalwebsitefigma1.png",
 		],
 		screencaptures: [
-			"/assets/image/forestgreenprototype1.png",
-			"/assets/image/forestgreenprototype2.png",
-			"/assets/image/forestgreenprototype3.png",
-			"/assets/image/forestgreenprototype4.png"
+			"./public/assets/image/personalwebsitescreencap.png",
+			"./public/assets/image/personalwebsitescreencap1.png",
+			"./public/assets/image/personalwebsitescreencap3.png"
+		],
+		techicons: [
+			"faReact",
+			"faCss3Alt",
+			"faBootstrap",
+			"faJsSquare",
+			"faFigma"
+		],
+		summary:
+			"Personal portfolio website.  Built using React, Reactstrap, Bootstrap, React-Router, and CSS",
+		githublink: "https://github.com/mrcmyk12/PersonalWebsite",
+		websitelink: "https://mrcmyk12.github.io/PersonalWebsite/"
+	},
+	{
+		id: 2,
+		name: "Forest Green (React Native)",
+		titleimage: "./assets/image/forestgreentitleimage.png",
+		designimages: [
+			"./public/assets/image/forestgreenscreen1.png",
+			"./public/assets/image/forestgreenscreen2.png",
+			"./public/assets/image/forestgreenscreen3.png"
+		],
+		screencaptures: [
+			"./public/assets/image/forestgreenprototype1.png",
+			"./public/assets/image/forestgreenprototype2.png",
+			"./public/assets/image/forestgreenprototype3.png",
+			"./public/assets/image/forestgreenprototype4.png"
 		],
 		techicons: [
 			"faReact",

@@ -27,6 +27,7 @@ import {
 
 import { NavLink } from "react-router-dom";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { icon } from "@fortawesome/fontawesome-svg-core";
 
 class Navigation extends Component {
 	constructor(props) {
@@ -72,6 +73,7 @@ class Navigation extends Component {
 									home
 								</NavLink>
 							</NavItem>
+
 							<NavItem>
 								<NavLink
 									style={{
@@ -103,21 +105,21 @@ class Navigation extends Component {
 									about
 								</NavLink>
 							</NavItem>
-							{/* <NavItem>
-							<NavLink
-								style={{
-									fontFamily: "Prompt",
-									fontStyle: "normal",
-									fontWeight: "bold",
-									fontSize: "30px",
-									lineHeight: "70px",
-									color: "#3E563E"
-								}}
-								className="nav-link"
-								to="/contact">
-								contact
-							</NavLink>
-						</NavItem> */}
+							<NavItem>
+								<NavLink
+									style={{
+										fontFamily: "Prompt",
+										fontStyle: "normal",
+										fontWeight: "bold",
+										fontSize: "30px",
+										lineHeight: "70px",
+										color: "#3E563E"
+									}}
+									className="nav-link"
+									to="/contact">
+									contact
+								</NavLink>
+							</NavItem>
 						</Nav>
 						<span style={{ marginLeft: "600px", color: "#3E563E" }}>
 							<h4 style={{ fontFamily: "Permanent Marker" }}>
