@@ -9,7 +9,7 @@ import 'react-typist/dist/Typist.css';
 class Homepage extends Component {
 	render() {
 		return (
-			<div className="homepage-text-div">
+			<div style={{height:'800px'}} className="homepage-text-div">
 			<Typist avgTypingDelay={100} cursor={{show:false}}>
 				<h1 className="homepage-text" >philip.sanders</h1>
 				<Typist.Delay ms={100} />
