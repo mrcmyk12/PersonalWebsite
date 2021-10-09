@@ -13,9 +13,11 @@ class Homepage extends Component {
 			<Typist avgTypingDelay={100} cursor={{show:false}}>
 				<h1 className="homepage-text" >philip.sanders</h1>
 				<Typist.Delay ms={100} />
-				<h2 className="homepage-subtext">ux engineer</h2>
+				<h5 className="homepage-subtext">ui/ux designer</h5>
 				<Typist.Delay ms={100} />
-				<h2 className="homepage-subtext">front end engineer</h2>
+				<h3 className="homepage-subtext">ux engineer</h3>
+				<Typist.Delay ms={100} />
+				<h3 className="homepage-subtext">front end engineer</h3>
 			</Typist>
 				<Link to='/projects'><Button outline >View Projects</Button></Link>
 			</div>
